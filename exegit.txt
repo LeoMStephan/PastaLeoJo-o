@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lista de Definições</title>
+</head>
+
+<body>
+
+	<dl>
+		<dt>Nerd</dt>
+		<dd>Pessoa tecnicamente brilhante, mas com comportamento social passivo.</dd>
+
+		<dt>Hacker</dt>
+		<dd>São frutos da sociedade moderna.</dd>
+		<dd>São os melhores no que fazem</dd>
+
+        <dt>Cracker</dt>
+        <dd>biscoito salgado(cream cracker)</dd>
+</body>
+</html>
