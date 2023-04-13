@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style></style></head>
+<body>
+<u></u>
+
+   <div>
+	<h1> Fomrmulário -  Cadastro de qualquer coisa </h1>
+	
+	<form target="_blank">
+	
+	<fieldset>
+	<legend align="center" style="color:blue;"> <b>Dados Pessoais</b></legend>
+
+	<label for="m_nome">Nome:</label><br>
+	<input type="text" id="m_nome" name="nome" size="50" maxlength="10">
+	
+	
+	<label for="m_telefone">Telefone:</label>
+	<input type="telefone" id="m_telefone" name="telefone" size="15" 
+          maxlengt="15">
+
+	<br><br>
+   <label for="m_email">Email:</label><br>
+	<input type="email" id="m_email" name="email" size="15">
+
+	<br><br>
+	<label for="m_dataNasc">Data de Nascimento:</label><br>
+	<input type="date" name="dataNasc" id="m_dataNasc">
+
+	<br><br>
+	<label for="m_foto">Foto:</label><br>
+	<input type="file" name="foto" id="m_foto" accept=".jpg, .png">
+
+	<br><br>
+	<label for="m_idade">Idade:</label><br>
+	<input type="number" name="idade" id="m_idade">
+
+	<br><br>
+	<label for="m_senha">Senha:</label><br>
+	<input type="password" name="senha" id="m_senha" maxlength="60" size="10">
+
+	<br><br>
+	<label for="m_sexo">Sexo:</label><br>
+	Feminino <input type="radio" name="sexo" id="m_sexo" value="F">
+	Masculino <input type="radio" name="sexo" id="m_sexo" value="M" checked>
+	
+	<br><br>
+
+	<input type="submit" value="Cadastrar">
+    
+   </fieldset>
+   
+   <fieldset>
+
+	<legend align="center" style="color: blue;"><b>Dados Profissionais</b></legend>
+
+	Data e Hora do Cadastro:<br>
+	<input type="datatime-local" name="datahoraCadastro" id="datahoraCadastro">
+
+	<br><br>
+
+   Cargo:<br>
+   <input type="text" value="Professor" readonly name="Professor" id="Professor">
+
+   <br><br>
+   	
+	Cor Uniforme:<br>
+	<input type="Color" id="corUniforme" name="corUniforme" value="#00CED1"	list="cores">
+
+	<datalist id="cores">
+		<option value="#00CED1">Azul Ciano</option>
+		<option value="#00FF00">Verde Lima</option>
+		<option value="#8A2BE2">Roxo</option>
+      <option value="#FF4500">Laranja</option>
+   </datalist>
+
+   <br><br>
+
+   Período de aula:<br>
+    Manhã<input type="checkbox" name="Manhã" id="Manhã" value="M" checked>
+    Tarde<input type="checkbox" name="Tarde" id="Tarde" value="T">
+    Noite<input type="checkbox" name="Noite" id="Noite" value="N">
+
+   <br><br>
+
+   Horário de entrada:<br>
+   <input type="time" name="horadeEntrada" id="horadeEntrada">
+
+   <br><br>
+
+   Mês de Início:<br>
+   <input type="month" name="mesInicio" id="mesInicio">
+
+   <br><br>
+
+   Semana de Início:<br>
+   <input type="week" name="semanaInicio" id="semanaInicio">
+   <br><br>
+
+   Curso:<br>
+   <select id="curso" name="curso">
+       <option></option>
+       <option value="DS">Des.Sistemas</option>
+       <option value="ED">Edificações</option>	
+       <option value="EN" selecet>Enfermagem</option>
+       <option value="GE">Geodésia</option>	
+       <option value="ME">Mecânica</option>	
+       <option value="QU">Qualidade</option>
+   </select>
+
+   Disciplina:<br><small>(ctrl + click)</small><br>
+   <select id="disciplina" name="disciplina" size="4" multiple>
+       <option></option>
+       <option value="BD">Banco de Dados</option>
+       <option value="PI">Proj.Integrador</option>	
+       <option value="IF">Informática</option>
+       <option value="DAW">DAW</option>
+       <option value="APSI">APSI</option>	
+       <option value="LOG">Lóg.Programação</option>
+       <option value="SORC">SORC</option>
+       <option value="IG">Inglês</option>
+   </select>
+
+   <br><br>
+
+   Veículo que utilizará no Campus:<br>
+   <select name="veículo">
+       <optgroup label="Carros">
+       <option value="McLaren">McLaren</option>
+       <option value="Audi">Audi</option>
+       <option value="Ferrari">Ferrari</option>
+       </optgroup>
+
+       <optgroup label="Motos">
+       <option value="Honda">Honda</option>
+       <option value="Yamaha">Yamaha</option>
+       <option value="Suzuki">Suzuki</option>
+       </optgroup>
+   </select>
+
+   <br><br>
+
+   Conheciumento:<br>
+   <input type="text" name="conhecimento" id="conhecimento" list="lista-conhecimento">
+       
+   <datalist id="lista-conhecimento">
+       	<option value="HTML5">HTML5</option>
+       	<option value="HTML4">HTML4</option>
+       	<option value="CSS3">CSS3</option>
+       	<option value="PHP">PHP</option>
+   </datalist>
+
+   <br><br>
+
+   Que nota você se daria:<small>(de 0 a 10)</small><br>
+   <input type="range" min="0" max="10" name="capacitacao" id="capacitacao" value="10">
+
+   <br><br>
+
+   Fale um pouco sobre voeê:<br>
+   <textarea rows="6" cols="50" name="obs" id="obs" maxlenght="100"></textarea>
+
+   <br><br>
+
+   Linkedin:<br>
+   <input type="url" name="url" id="url" required>
+
+   </fieldset>
+   
+   <br><br>
+
+   <input type="submit" value="Cadastra">
+   <input type="reset" value="Limpar">
+   <input type="button" value="Mensagem" onclick="alert('oi');">  
+
+ </form>
+</div>	
+</body></html>
